@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string name="title_home">Home</string>
+
+    <string name="title_menu_movies">Movies</string>
+    <string name="title_menu_tvshow">TV Show</string>
+
+    <string name="image_poster">Image poster</string>
+    <string name="date_realesed">2020</string>
+    <string name="star_icon">star_icon</string>
+    <string name="timer_icon">timer_icon</string>
+    <string name="title">Title</string>
+    <string name="first_line">first_line</string>
+    <string name="second_line">second_line</string>
+    <string name="languange">English</string>
+    <string name="change_language_settings">Language Configuration</string>
+
+    <string name="vote_average">6.5</string>
+    <string name="vote_count">2000</string>
+    <string name="detail_overview">This is a synopsis</string>
+    <string name="add_to_favorite">Add Movie</string>
+    <string name="delete">Delete</string>
+    <string name="remove_movie">Remove Movie</string>
+    <string name="language_indonesia">Indonesia</string>
+
+    <string name="succes_add_data">Success Add Movie</string>
+    <string name="failed_add_data">Failed Add Movie</string>
+    <string name="notif_delete_movie">Data was Deleted</string>
+
+    <string name="notif_question_delete">Are you sure to delete this data?</string>
+    <string name="delete_movie">Delete Movie</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="notif_failed_delete">Failed delete data</string>
+    <string name="notif_success_delete">Success delete data</string>
+</resources>

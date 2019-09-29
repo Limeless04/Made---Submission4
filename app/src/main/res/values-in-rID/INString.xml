@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Katalog Film</string>
+    <string name="title_home">Rumah</string>
+
+    <string name="title_menu_movies">Film</string>
+    <string name="title_menu_tvshow">Acara TV</string>
+
+    <string name="image_poster">Gambar poster</string>
+    <string name="date_realesed">2020</string>
+    <string name="star_icon">ikon_bintang</string>
+    <string name="timer_icon">ikon_waktu</string>
+    <string name="title">Judul</string>
+    <string name="first_line">baris_pertama</string>
+    <string name="second_line">baris_keduan</string>
+    <string name="languange">Inggris</string>
+    <string name="change_language_settings">Ubah Bahasa</string>
+
+
+    <string name="vote_average">6.5</string>
+    <string name="vote_count">2000</string>
+    <string name="detail_overview">Ini adalah sinopsis</string>
+    <string name="add_to_favorite">Tambah Film</string>
+    <string name="delete">Hapus</string>
+    <string name="remove_movie">Hapus Film</string>
+    <string name="language_indonesia">Indonesia</string>
+
+    <string name="succes_add_data">Sukses tambah film</string>
+    <string name="failed_add_data">Gagal tambah film</string>
+    <string name="notif_delete_movie">Data telah dihapus</string>
+
+    <string name="notif_question_delete">Apakah kamu yakin ingin menghapus data ini?</string>
+    <string name="delete_movie">Hapus Film</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="notif_failed_delete">Gagal Hapus Data</string>
+    <string name="notif_success_delete">Berhasil Hapus Data</string>
+</resources>

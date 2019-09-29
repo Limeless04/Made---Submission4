@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MovieFavoriteActivity">
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:visibility="invisible"
+        app:layout_anchor="@id/rv_movie_fav"
+        app:layout_anchorGravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/rv_movie_fav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rv_movie_fav" />
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageError"-->
+    <!--        android:layout_width="164dp"-->
+    <!--        android:layout_height="239dp"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        android:visibility="invisible"-->
+    <!--        app:layout_constraintHorizontal_bias="0.497"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.258"-->
+    <!--        app:srcCompat="@drawable/not_found_data" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/title_error"-->
+    <!--        android:layout_width="162dp"-->
+    <!--        android:layout_height="29dp"-->
+    <!--        android:text="Oops !!!"-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textColor="@color/colorPrimary"-->
+    <!--        android:textSize="20dp"-->
+    <!--        android:visibility="invisible"-->
+    <!--        android:textStyle="bold"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="@+id/imageError"-->
+    <!--        app:layout_constraintHorizontal_bias="0.333"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/imageError"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/imageError"-->
+    <!--        app:layout_constraintVertical_bias="0.109" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/message_error"-->
+    <!--        android:layout_width="161dp"-->
+    <!--        android:layout_height="58dp"-->
+    <!--        android:text="Film Favorite tidak tersedia."-->
+    <!--        android:textAlignment="center"-->
+    <!--        android:textSize="16dp"-->
+    <!--        android:visibility="invisible"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="@+id/title_error"-->
+    <!--        app:layout_constraintHorizontal_bias="0.0"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/title_error"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/title_error"-->
+    <!--        app:layout_constraintVertical_bias="0.06" />-->
+
+    <android.support.v7.widget.RecyclerView
+        android:paddingTop="20dp"
+        android:id="@+id/rv_movie_fav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:listitem="@layout/item_movie_favorite"
+        android:background="#eee"/>
+
+
+</android.support.constraint.ConstraintLayout>
